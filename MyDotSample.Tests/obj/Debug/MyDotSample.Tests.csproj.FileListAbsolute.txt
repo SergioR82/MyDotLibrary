@@ -1,0 +1,1 @@
+/Users/sersrod/Projects/MyDotLibrary/MyDotSample.Tests/obj/Debug/MyDotSample.Tests.csproj.CoreCompileInputs.cache

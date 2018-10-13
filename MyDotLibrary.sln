@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDotLibrary", "MyDotLibrary\MyDotLibrary.csproj", "{E6977A1E-D124-4BDC-9A23-33DC609ABA9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDotSample", "MyDotSample\MyDotSample.csproj", "{B98974F0-6820-43BC-9DBB-D4E0FD4D9A62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDotSample.Tests", "MyDotSample.Tests\MyDotSample.Tests.csproj", "{31DED200-42BF-4CC2-847A-E55B43BB1B6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6977A1E-D124-4BDC-9A23-33DC609ABA9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6977A1E-D124-4BDC-9A23-33DC609ABA9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6977A1E-D124-4BDC-9A23-33DC609ABA9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6977A1E-D124-4BDC-9A23-33DC609ABA9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B98974F0-6820-43BC-9DBB-D4E0FD4D9A62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B98974F0-6820-43BC-9DBB-D4E0FD4D9A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B98974F0-6820-43BC-9DBB-D4E0FD4D9A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B98974F0-6820-43BC-9DBB-D4E0FD4D9A62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31DED200-42BF-4CC2-847A-E55B43BB1B6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31DED200-42BF-4CC2-847A-E55B43BB1B6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31DED200-42BF-4CC2-847A-E55B43BB1B6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31DED200-42BF-4CC2-847A-E55B43BB1B6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
