@@ -14,5 +14,11 @@ namespace MyDotSample.Controllers
         {
 			return View("CustomerViewModel", new Customer(){FirstName= "hola", LastName="mundo"});
         }
+
+        [HttpPost]
+        public ActionResult CreateCustomer(Customer cust) {
+            base.Create(cust);
+            return View("CustomerViewModel");
+        }
     }
 }
