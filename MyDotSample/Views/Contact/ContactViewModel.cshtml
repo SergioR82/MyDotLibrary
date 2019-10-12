@@ -1,0 +1,33 @@
+﻿@model MyDotSample.Contact
+
+@{
+    Layout = null;
+}
+<html>
+<body>
+    @using (Html.BeginForm("CreateContact", "Contact", FormMethod.Post))
+    {
+    <div class="col-md-10">
+        @Html.LabelFor(model => model.FullName, htmlAttributes: new { @class = "control-label col-md-2" })
+        @Html.EditorFor(model => model.FullName, new { htmlAttributes = new { @class = "form-control" } })
+    </div>
+
+        for (var i = 0; i < Model.Customers.Count; i++)
+        {
+            <div>
+                FirstName: @Html.TextBoxFor(x => x.Customers[i].FirstName)<br />
+                LastName: @Html.TextBoxFor(x => x.Customers[i].LastName)<br />
+            </div>
+        }
+        @*foreach (Customer item in Model.Customers)
+            {
+            <div>
+                FirstName: @Html.TextBox("FirstName",item.FirstName);<br />
+                LastName: @Html.TextBox("LastName", item.LastName);<br />
+            </div>
+            }*@
+        <input type="submit" value="CreateContact" />
+    }
+</body>
+</html>
+

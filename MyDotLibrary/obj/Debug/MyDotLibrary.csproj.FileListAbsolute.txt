@@ -50,3 +50,4 @@ C:\Sergio\Trabajo\DOTNETGROUP\Repositorios\Github\MyDotLibrary\MyDotLibrary\MyDo
 C:\Sergio\Trabajo\DOTNETGROUP\Repositorios\Github\MyDotLibrary\MyDotLibrary\MyDotLibrary\obj\Debug\MyDotLibrary.csproj.CopyComplete
 C:\Sergio\Trabajo\DOTNETGROUP\Repositorios\Github\MyDotLibrary\MyDotLibrary\MyDotLibrary\obj\Debug\MyDotLibrary.dll
 C:\Sergio\Trabajo\DOTNETGROUP\Repositorios\Github\MyDotLibrary\MyDotLibrary\MyDotLibrary\obj\Debug\MyDotLibrary.pdb
+C:\Sergio\Trabajo\DOTNETGROUP\Repositorios\Github\MyDotLibrary\MyDotLibrary\MyDotLibrary\obj\Debug\MyDotLibrary.csprojAssemblyReference.cache

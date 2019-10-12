@@ -8,6 +8,7 @@ namespace MyDotSample
 		public SampleContext(): base("name=SampleContext"){}
 
 		public virtual DbSet<Customer> Customers { get; set; }
-				
-	}
+        public virtual DbSet<Contact> Contacts { get; set; }
+
+    }
 }
